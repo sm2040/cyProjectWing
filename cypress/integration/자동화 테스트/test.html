@@ -1,0 +1,40 @@
+<html>
+  <header>
+    <title>
+      test
+    </title>
+  </header>
+
+  <body>
+    <input type="checkbox" class="css-38lglc" value="" checked="" />
+    <input type="checkbox" class="css-38lglc" value="" checked="" />
+    <script>
+      const arr1 = [
+        { name: '프로도', age: 3 },
+        { name: '라이언', age: 5 },
+        { name: '콘', age: 5 },
+        { name: '무지', age: 4 },
+        { name: '콘', age: 2 },
+      ];
+
+      const found = arr1.find(el => el.age == 4);
+      console.log(found);
+
+      arr_filtered1 = arr1.filter(el => el.name == '무지');
+      arr_filtered2 = arr1.filter(el => el.age > 3);
+      arr_3 = arr1.filter(i => i.name === '콘')
+      // console.log(arr_filtered1.indexOf());
+      arr4 = arr1.filter(i => i.name === '콘')
+
+      for (var i=0 ; i < arr4.length ; i++)
+      {
+        console.log(i+' 번째 이름은 : ' + arr4[i].name)
+        console.log(i+' 번째 나이는 : ' + arr4[i].age)
+      }
+      var hihi = arr1[0].name;
+      console.log(hihi.includes('h'));
+      // console.log(arr1.filter(i => i.name === '콘'))
+      // console.log(arr_filtered2);
+    </script>
+  </body>
+</html>

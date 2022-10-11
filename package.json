@@ -1,0 +1,26 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "end-to-end testing with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.0.2",
+    "i": "^0.3.7",
+    "prettier": "^1.19.1",
+    "soft-assert": "^0.2.6",
+    "xpath": "^0.0.32"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
